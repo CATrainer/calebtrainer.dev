@@ -1,0 +1,9 @@
+# Applies to every post in this folder.
+date-format: "D MMMM YYYY"
+title-block-banner: false
+toc: true
+toc-depth: 2
+toc-location: right
+reference-location: margin
+citation-location: margin
+code-fold: false

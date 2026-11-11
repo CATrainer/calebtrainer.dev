@@ -1,0 +1,98 @@
+// Shared rules for both themes. Imported by light.scss and dark.scss.
+
+body {
+  font-family: $font-family-serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .navbar, .listing-title, .listing-date, .listing-reading-time,
+.quarto-title-meta, .nav-footer, .quarto-category, figcaption, .table, #TOC, .sidebar nav {
+  font-family: $headings-font-family;
+}
+
+h1, h2, h3 { letter-spacing: -0.01em; font-weight: 600; }
+h1.title { font-size: 2.1rem; }
+h2 { font-size: 1.45rem; margin-top: 2.2rem; border-bottom: none; }
+h3 { font-size: 1.15rem; margin-top: 1.8rem; }
+
+// Home page has no title block; the navbar already says who this is.
+.home #title-block-header, .home header#title-block-header { display: none; }
+
+.navbar { border-bottom: 1px solid $rule-color; box-shadow: none; }
+.navbar-brand .navbar-title { font-weight: 600; }
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+code, pre, .sourceCode { font-family: $font-family-monospace; }
+pre.sourceCode, div.sourceCode { border-radius: 4px; }
+div.sourceCode { border: 1px solid $rule-color; }
+p code:not(.sourceCode), li code:not(.sourceCode) {
+  font-size: 0.86em;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+// Home page
+.intro { font-size: 1.2rem; line-height: 1.6; margin: 2rem 0 2.5rem; }
+section.posts-heading > h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $muted-color;
+  margin: 0 0 0.25rem;
+}
+ul.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list-item { border-top: 1px solid $rule-color; padding: 1.1rem 0 1rem; }
+.post-list-item:last-child { border-bottom: 1px solid $rule-color; }
+a.post-list-title {
+  font-family: $headings-font-family;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: $body-color;
+  text-decoration: none;
+}
+a.post-list-title:hover { color: $link-color; text-decoration: underline; }
+.post-list-desc { margin: 0.3rem 0 0.35rem; font-size: 1rem; color: $muted-color; line-height: 1.5; }
+.post-list-meta, .post-list-empty {
+  font-family: $headings-font-family;
+  font-size: 0.82rem;
+  color: $muted-color;
+  margin: 0;
+}
+.post-list-empty { font-size: 1rem; padding: 1rem 0; border-top: 1px solid $rule-color; }
+.post-list-draft, .quarto-title .quarto-categories .quarto-category {
+  font-family: $headings-font-family;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  border: 1px solid $rule-color;
+  border-radius: 3px;
+  padding: 0.05rem 0.4rem;
+  color: $muted-color;
+  vertical-align: 0.15em;
+}
+.post-list-draft { color: #b35c00; border-color: #e0b98a; }
+
+// About page
+img.avatar, .avatar img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+@media (max-width: 576px) {
+  img.avatar, .avatar img { float: none; display: block; margin: 0 0 1.25rem 0; width: 96px; height: 96px; }
+}
+
+// Post pages
+.quarto-title-meta { font-size: 0.88rem; color: $muted-color; margin-top: 0.75rem; }
+.quarto-title-meta-heading { display: none; }
+.quarto-title .subtitle, .quarto-title p.subtitle, .description p { font-size: 1.1rem; color: $muted-color; }
+.callout { font-size: 1rem; }
+figure figcaption { font-size: 0.9rem; color: $muted-color; }
+.nav-footer { font-size: 0.85rem; border-top: 1px solid $rule-color; }

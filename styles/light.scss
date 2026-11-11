@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+$font-family-serif: "Source Serif 4", Georgia, serif;
+$font-family-sans-serif: "IBM Plex Sans", system-ui, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, monospace;
+$headings-font-family: $font-family-sans-serif;
+
+$body-bg: #fbfaf7;
+$body-color: #1f2328;
+$link-color: #1a5fa8;
+$primary: #1a5fa8;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $link-color;
+$footer-bg: $body-bg;
+$code-color: #8a2b2b;
+$code-bg: #f0eee9;
+$rule-color: #e4e1da;
+$muted-color: #5f6670;
+
+/*-- scss:rules --*/
+@import "fonts";
+@import "shared";

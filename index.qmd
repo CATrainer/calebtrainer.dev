@@ -1,0 +1,27 @@
+---
+title: "Caleb Trainer"
+pagetitle: "Caleb Trainer"
+page-layout: article
+body-classes: home
+listing:
+  id: posts
+  contents: posts
+  sort: "date desc"
+  template: _templates/posts-list.ejs
+  date-format: "D MMM YYYY"
+  page-size: 200
+  sort-ui: false
+  filter-ui: false
+  feed:
+    title: "Caleb Trainer"
+    description: "Build logs: models, training runs and agent-security tools, built from scratch."
+---
+
+::: {.intro}
+Software engineer in London. I'm building a GPT from scratch, starting with the autograd engine, and a set of agents that test AI agent skills for security problems. I write up what I find every couple of weeks.
+:::
+
+## Posts {.posts-heading}
+
+::: {#posts}
+:::

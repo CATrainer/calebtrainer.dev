@@ -1,0 +1,4 @@
+# Used for Vercel preview deployments (any branch that isn't main).
+# Drafts are rendered and listed so you can read them before publishing.
+website:
+  draft-mode: visible

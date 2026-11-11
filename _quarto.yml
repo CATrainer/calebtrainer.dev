@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - fonts/
+    - katex/
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "*.ipynb"
+    - "!README.md"
+    - "!CLAUDE.md"
+    - "!_templates/"
+    - "!.claude/"
+
+website:
+  title: "Caleb Trainer"
+  description: "Build logs from training models and building agent-security tools from scratch."
+  site-url: https://calebtrainer.dev
+  repo-url: https://github.com/CATrainer/calebtrainer.dev
+  favicon: favicon.svg
+  open-graph: true
+  draft-mode: gone
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/CATrainer
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS feed
+  page-footer:
+    left: "Caleb Trainer"
+    right:
+      - text: "Source"
+        href: https://github.com/CATrainer/calebtrainer.dev
+      - text: "RSS"
+        href: index.xml
+
+format:
+  html:
+    theme:
+      light: [flatly, styles/light.scss]
+      dark: [darkly, styles/dark.scss]
+    respect-user-color-scheme: true
+    toc: false
+    grid:
+      sidebar-width: 200px
+      body-width: 700px
+      margin-width: 240px
+      gutter-width: 2rem
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    html-math-method:
+      method: katex
+      url: /katex/
+    smooth-scroll: false
+    link-external-newwindow: false
+
+execute:
+  freeze: auto

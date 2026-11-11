@@ -1,0 +1,18 @@
+---
+title: "About"
+page-layout: article
+---
+
+![](images/caleb.jpg){.avatar fig-alt="Illustrated portrait of Caleb Trainer"}
+
+I'm Caleb, a software engineer in London. I've been writing code since 2015, mostly self-taught.
+
+This site is where I write up what I build outside my day job. Right now that's two projects.
+
+**gpt-from-scratch.** An autograd engine, a tokenizer and a small GPT, each written by hand and trained from scratch.
+
+**skill-fleet.** Agents that watch AI agent skill and MCP registries, then run anything suspicious inside a sandboxed agent to see what it does.
+
+Most of what I'm building early on has been built before, so each post tries to add something the original doesn't have: measurements from my own runs and the bugs it took to get them.
+
+Code is on [GitHub](https://github.com/CATrainer). New posts go out on the [RSS feed](index.xml).

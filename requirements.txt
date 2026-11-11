@@ -1,0 +1,5 @@
+# Local tools for writing posts. Vercel reads the Quarto version from here too.
+quarto-cli==1.11.9
+jupyter
+numpy
+matplotlib
