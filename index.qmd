@@ -18,7 +18,7 @@ listing:
 ---
 
 ::: {.intro}
-Software engineer in London. I'm building a GPT from scratch, starting with the autograd engine, and a set of agents that test AI agent skills for security problems. I write up what I find every couple of weeks.
+Hi, I'm Caleb. Self-taught software engineer in London, currently rebuilding a GPT from the autograd engine up and running a small fleet of agents that hunt for malicious AI agent skills. I write up what I find every couple of weeks, numbers and mistakes included.
 :::
 
 ## Posts {.posts-heading}
