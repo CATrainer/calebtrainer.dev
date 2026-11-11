@@ -5,13 +5,11 @@ page-layout: article
 
 ![](images/caleb.jpg){.avatar fig-alt="Illustrated portrait of Caleb Trainer"}
 
-I'm Caleb, a software engineer in London. I build AI systems for large companies, and I work AI-first: most of my code is written alongside coding agents.
+What does a language model learn first? How easy is it to slip something malicious into the tools an AI agent trusts? Those are the questions I'm working on at the moment, and this site is where the answers go.
 
-At work I've built a tool that cut network troubleshooting from an hour to five minutes, and run language models on networks with no internet access. Outside work I've launched a few products of my own.
+I'm Caleb, a software engineer in London who builds things to understand them. Past builds include a tool that cut network troubleshooting from an hour to five minutes, language models running on networks cut off from the internet, and a chat app that has several models argue before they answer.
 
-In my own time I'm learning how these models work from the inside. I'm building a GPT from scratch, starting with the autograd engine, and running a fleet of agents that hunt for malicious AI agent skills.
-
-This site is my lab notebook. Each post tries to add something the original work doesn't have: my own numbers, and the bugs it took to get them.
+Six years of tutoring left me with a habit of explaining things until the gaps show. Each post here comes with my own numbers and the mistakes it took to get them.
 
 Away from the keyboard: padel, parkrun and piano.
 
